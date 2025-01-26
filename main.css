@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background: #00000000;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background-color: #f4f7f7;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(242, 247, 247);
+    background: linear-gradient(329deg, rgba(215, 238, 237, 1) 0%, rgba(242, 247, 247, 1) 9%, rgba(253, 255, 255, 1) 35%, rgba(215, 224, 224, 1) 52%, rgba(251, 251, 251, 1) 72%, rgba(255, 255, 255, 1) 81%, rgba(253, 255, 255, 1) 96%, rgba(216, 221, 220, 1) 100%);
+    background: transparent;
+    font-family: "Bungee Shade", serif;
+    font-weight: 400;    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+      "YEAR" 1979;
+
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+    margin-bottom: 10px;
+    color:rgb(116, 41, 18);
+}
+
+hr {
+    width: 100%;
+    border: 1px solid rgb(165 58 26);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+ul>li {
+    font-family: "Strait", serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    transition: color ease-in-out 0.2s;
+}
+
+a:link,
+a:visited,
+a:link:active,
+a:visited:active {
+    text-decoration: none;
+    font-weight: 500;
+    transition: color ease-in-out 0.2s;
+    color: black;
+}
+
+a:before {
+    content: "[";
+}
+
+a:after {
+    content: "]"
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(116, 41, 18);
+}
